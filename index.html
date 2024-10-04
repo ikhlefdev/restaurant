@@ -1,65 +1,29 @@
-<head><script defer src="main.js"></script></head>Html Webpack Plugin:
-<pre>
-  Error: Child compilation failed:
-  Module not found: Error: Can't resolve 'html-loader' in 'C:\Users\HP\resto'
-  ModuleNotFoundError: Module not found: Error: Can't resolve 'html-loader' in 'C  :\Users\HP\resto'
-      at C:\Users\HP\resto\node_modules\webpack\lib\Compilation.js:2109:28
-      at C:\Users\HP\resto\node_modules\webpack\lib\NormalModuleFactory.js:908:13      at eval (eval at create (C:\Users\HP\resto\node_modules\tapable\lib\HookCod  eFactory.js:33:10), <anonymous>:10:1)
-      at C:\Users\HP\resto\node_modules\webpack\lib\NormalModuleFactory.js:333:22      at eval (eval at create (C:\Users\HP\resto\node_modules\tapable\lib\HookCod  eFactory.js:33:10), <anonymous>:9:1)
-      at C:\Users\HP\resto\node_modules\webpack\lib\NormalModuleFactory.js:638:15      at C:\Users\HP\resto\node_modules\webpack\lib\NormalModuleFactory.js:150:10      at C:\Users\HP\resto\node_modules\webpack\lib\NormalModuleFactory.js:714:8
-      at C:\Users\HP\resto\node_modules\neo-async\async.js:2830:7
-      at done (C:\Users\HP\resto\node_modules\neo-async\async.js:2925:13)
-  
-  - Compilation.js:2109 
-    [resto]/[webpack]/lib/Compilation.js:2109:28
-  
-  - NormalModuleFactory.js:908 
-    [resto]/[webpack]/lib/NormalModuleFactory.js:908:13
-  
-  
-  - NormalModuleFactory.js:333 
-    [resto]/[webpack]/lib/NormalModuleFactory.js:333:22
-  
-  
-  - NormalModuleFactory.js:638 
-    [resto]/[webpack]/lib/NormalModuleFactory.js:638:15
-  
-  - NormalModuleFactory.js:150 
-    [resto]/[webpack]/lib/NormalModuleFactory.js:150:10
-  
-  - NormalModuleFactory.js:714 
-    [resto]/[webpack]/lib/NormalModuleFactory.js:714:8
-  
-  - async.js:2830 
-    [resto]/[neo-async]/async.js:2830:7
-  
-  - async.js:2925 done
-    [resto]/[neo-async]/async.js:2925:13
-  
-  - child-compiler.js:174 
-    [resto]/[html-webpack-plugin]/lib/child-compiler.js:174:18
-  
-  - Compiler.js:627 finalCallback
-    [resto]/[webpack]/lib/Compiler.js:627:5
-  
-  - Compiler.js:662 
-    [resto]/[webpack]/lib/Compiler.js:662:11
-  
-  - Compiler.js:1348 
-    [resto]/[webpack]/lib/Compiler.js:1348:17
-  
-  
-  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
-    [resto]/[tapable]/lib/Hook.js:18:14
-  
-  - Compiler.js:1344 
-    [resto]/[webpack]/lib/Compiler.js:1344:33
-  
-  - Compilation.js:2925 finalCallback
-    [resto]/[webpack]/lib/Compilation.js:2925:11
-  
-  - Compilation.js:3238 
-    [resto]/[webpack]/lib/Compilation.js:3238:11
-  
-  
-</pre>
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Restaurant</title>
+    <script defer src="main.js"></script></head>
+    <body>
+        <div class="header">
+            <h1 id="bigb">Mery's Food</h1>
+            <header>
+                <nav>
+                    <button id="btn1">Home</button>
+                    <button id="btn2">Menu</button>
+                    <button id="btn3">About</button>
+                </nav>
+            </header>
+        </div>
+       
+        <div id="content">
+        </div>
+    </body>
+</html>
